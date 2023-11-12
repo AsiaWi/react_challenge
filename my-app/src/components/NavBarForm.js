@@ -22,7 +22,7 @@ export class NavBarForm extends Component {
       <div className={css.NavBar}>
         <h1>My Gallery</h1>
         {this.state.isLoggedIn ? (<NavBarChild handleClick={this.handleClick}/>):(
-        <button onClick = {() => this.handleClick()}>'Login'</button>)}
+        <button onClick = {() => this.handleClick()}>Login</button>)}
       </div>
     )
   }
